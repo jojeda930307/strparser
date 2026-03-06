@@ -12,7 +12,7 @@ from .substring import (
     substring_by_index,
 )
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "Javier Ojeda"
 __all__ = [
     "substring_after",
