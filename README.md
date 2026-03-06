@@ -1,7 +1,5 @@
 # StrParser
 
-# StrParser
-
 [![PyPI version](https://badge.fury.io/py/strparser.svg)](https://badge.fury.io/py/strparser)
 [![Python Version](https://img.shields.io/pypi/pyversions/strparser.svg)](https://pypi.org/project/strparser/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
