@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "strparser"
+version = "0.1.0"
+description = "Simple Utilities to Extract Text Substrings in Python"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Javier Ojeda", email = "jaor.jojeda@gmail.com"}
+]
+keywords = ["string", "substring", "parser", "string-utils", "text-processing", "string-manipulation"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Text Processing :: General",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jojeda930307/strparser"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["strparser*"]
