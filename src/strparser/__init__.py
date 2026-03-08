@@ -1,5 +1,5 @@
 """
-StrParser - Utilidades para parsear y manipular strings.
+StrParser - Utilities for parsing and manipulating strings.
 """
 
 from .substring import (
@@ -10,11 +10,15 @@ from .substring import (
     substring_between_after_reference,
     substring_before_to,
     substring_by_index,
+    SubstringNotFoundError,
+    EmptyStringError,
+    IndexOutOfRangeError,
 )
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 __author__ = "Javier Ojeda"
 __all__ = [
+    # Functions
     "substring_after",
     "substring_after_last",
     "substring_before",
@@ -22,4 +26,8 @@ __all__ = [
     "substring_between_after_reference",
     "substring_before_to",
     "substring_by_index",
+    # Exceptions
+    "SubstringNotFoundError",
+    "EmptyStringError",
+    "IndexOutOfRangeError",
 ]

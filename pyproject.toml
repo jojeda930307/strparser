@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "strparser"
-version = "0.1.1"
+version = "0.1.2"
 description = "Simple Utilities to Extract Text Substrings in Python"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "MIT"}
+license = "MIT"
 authors = [
     {name = "Javier Ojeda", email = "jaor.jojeda@gmail.com"}
 ]
